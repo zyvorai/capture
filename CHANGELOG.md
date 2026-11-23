@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.2.0 - 2026-11-23
+
+- **Photo editor:** flip, straighten (cropped so there are no empty corners), crop to a shape (1:1, 16:9, 3:2, 4:3, 9:16, 4:5); warmth, shadows, highlights and vignette; sepia, instant and tonal filters; a macOS window frame with an optional title for sharing; **Find and hide secrets** (emails, keys, card numbers), **Copy text** and **Read QR code**, all on this Mac.
+- **Video editor:** spotlight the pointer, frame the video with a background, rounded corners and shadow, fade in and out, 1.5x/2x/4x speed, export at 1080p, 720p or 480p, leave the sound out, export the sound only (M4A), trim to the action, and grab a frame into the photo editor.
+- **Screenshots:** optional 3, 5 or 10 second delay, and copy to the clipboard.
+- **Changed:** hiding with Pixelate uses larger blocks so a line of text cannot be read.
+
 ## v0.1.0 - 2026-11-23
 
 First public release (trial). Requires macOS 27 or later, Apple silicon.

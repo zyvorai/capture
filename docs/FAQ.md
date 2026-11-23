@@ -6,11 +6,11 @@ A whole display, one window, or an area you choose, with optional system audio a
 
 **What can I do with a recording?**
 
-Trim it and export MP4 or an animated GIF. Smart edit can speed up or cut idle time, zoom in on clicks, show click rings and pixelate emails, API keys, tokens and card numbers.
+Trim it (or trim to where the action is) and export MP4 or an animated GIF at 1080p, 720p or 480p; leave the sound out or export only the sound; grab a frame into the photo editor. Smart edit can speed up or cut idle time, zoom in on clicks, show click rings, spotlight the pointer, frame the video, fade in and out, and pixelate emails, API keys, tokens and card numbers.
 
 **What can I do with a picture?**
 
-Crop, rotate, adjust and filter it; add arrows, shapes, text and numbered steps; blur, pixelate or cover parts to redact; cut out the subject; beautify it with a background, rounded corners and a shadow. Export PNG, JPEG or HEIC.
+Crop (to a shape), rotate, flip, straighten, adjust and filter it; hide secrets with one click; copy its text or read a QR code; add arrows, shapes, text and numbered steps; blur, pixelate or cover parts to redact; cut out the subject; beautify it with a background, rounded corners and a shadow. Export PNG, JPEG or HEIC.
 
 **Why are the zoom and idle tools greyed out for my video?**
 
