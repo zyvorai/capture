@@ -10,9 +10,9 @@ Record your screen, trim and tidy the video, and edit screenshots and photos, al
 
 <br />
 
-**[Download 0.2.0](https://github.com/zyvorai/capture/releases/tag/v0.2.0)** &nbsp;·&nbsp; [Ask for a 30-day trial](mailto:sales@zyvor.dev?subject=Zyvor%20Capture%20trial%20key) &nbsp;·&nbsp; [Website](https://zyvorai.github.io/capture/) &nbsp;·&nbsp; [Docs](docs/INSTALL.md) &nbsp;·&nbsp; [Prices](https://zyvor.dev/pricing)
+**[Download 0.3.0](https://github.com/zyvorai/capture/releases/tag/v0.3.0)** &nbsp;·&nbsp; [Ask for a 30-day trial](mailto:sales@zyvor.dev?subject=Zyvor%20Capture%20trial%20key) &nbsp;·&nbsp; [Website](https://zyvorai.github.io/capture/) &nbsp;·&nbsp; [Docs](docs/INSTALL.md) &nbsp;·&nbsp; [Prices](https://zyvor.dev/pricing)
 
-`ZyvorCapture-0.2.0.dmg` · macOS 27 or later · Apple silicon · Developer ID signed and notarized
+`ZyvorCapture-0.3.0.dmg` · macOS 27 or later · Apple silicon · Developer ID signed and notarized
 
 </div>
 
@@ -23,13 +23,17 @@ Record your screen, trim and tidy the video, and edit screenshots and photos, al
 | | |
 | --- | --- |
 | **Trial** | A free 30-day trial key: **sales@zyvor.dev**. You do not need a key to use the app. |
-| **Download** | [Zyvor Capture 0.2.0](https://github.com/zyvorai/capture/releases/tag/v0.2.0): `ZyvorCapture-0.2.0.dmg` (SHA-256 `d26d0414a4bed5df34ff39ec46a8129b5d5f8b301acf0b0994b6ef5c13792bf4`) |
+| **Download** | [Zyvor Capture 0.3.0](https://github.com/zyvorai/capture/releases/tag/v0.3.0): `ZyvorCapture-0.3.0.dmg` (SHA-256 `094c047106bba69d2f5b17870315cffcc6f04c439262f5d7f23fb1fd51124065`) |
 | **Requirements** | macOS 27 or later, Apple silicon |
 | **Pricing** | See [zyvor.dev/pricing](https://zyvor.dev/pricing) or write to sales@zyvor.dev. |
 
 ## What it does
 
 **Record.** A display, one window or an area, with optional system audio and microphone, a countdown and a hotkey (Control-Option-Command-V). Screenshots with Control-Option-Command-P, with an optional delay and copy to the clipboard.
+
+**Edit on a timeline.** Zoom, caption, cut and slow-motion blocks sit on lanes under the video; drag and resize them. Zoom blocks are generated from your clicks.
+
+**Webcam and more.** Record your camera beside the screen and place it as a bubble, join other clips with transitions, add captions (typed, SRT, or written from speech on this Mac), even out the sound and reduce noise.
 
 **Trim and export.** Cut a recording to the part you want, or trim to where the action is, and export MP4 or an animated GIF at 1080p, 720p or 480p. Leave the sound out, export just the sound, or grab a frame into the photo editor.
 
@@ -44,15 +48,15 @@ Record your screen, trim and tidy the video, and edit screenshots and photos, al
 
 ## Privacy and security
 
-- **No network.** Zyvor Capture contains no networking code, and its one special entitlement is the microphone (`com.apple.security.device.audio-input`). Verify: `codesign -d --entitlements - "/Applications/Zyvor Capture.app"`. It is not sandboxed.
-- Screen Recording is asked when you first record or take a screenshot; Microphone only if you turn it on.
+- **No network.** Zyvor Capture contains no networking code, and its special entitlements are the microphone and camera (`com.apple.security.device.audio-input`, `com.apple.security.device.camera`). Verify: `codesign -d --entitlements - "/Applications/Zyvor Capture.app"`. It is not sandboxed.
+- Screen Recording is asked when you first record or take a screenshot; Microphone and Camera only if you turn them on. Speech captions use macOS's on-device recognizer (macOS may download a language pack once).
 - It does not log keystrokes. Pointer positions and clicks are saved only beside your recordings, and you can delete that file.
 
 See [docs/PRIVACY.md](docs/PRIVACY.md).
 
 ## Limits
 
-- Early release: beyond its automated tests, the real screen capture, the Screen Recording and Microphone prompts, audio, the smart edits on real recordings, VoiceOver and a clean-Mac install have not been tested by us.
+- Early release: beyond its automated tests, the real screen capture, the permission prompts, the webcam, the custom cursor, speech recognition, dragging on the timeline, VoiceOver and a clean-Mac install have not been tested by us.
 - Removing objects from photos is not in this release.
 
 ## Trial and licence

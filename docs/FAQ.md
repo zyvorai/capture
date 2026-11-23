@@ -4,6 +4,10 @@
 
 A whole display, one window, or an area you choose, with optional system audio and microphone. Hotkeys: Control-Option-Command-V starts and stops a recording, Control-Option-Command-P takes a screenshot.
 
+**Can I record my webcam?**
+
+Yes, turn on Camera in the Record panel. It is saved beside the recording and can be placed as a bubble in any corner when you export.
+
 **What can I do with a recording?**
 
 Trim it (or trim to where the action is) and export MP4 or an animated GIF at 1080p, 720p or 480p; leave the sound out or export only the sound; grab a frame into the photo editor. Smart edit can speed up or cut idle time, zoom in on clicks, show click rings, spotlight the pointer, frame the video, fade in and out, and pixelate emails, API keys, tokens and card numbers.
@@ -22,11 +26,11 @@ No. It looks for common patterns in text it can read on screen. It can miss thin
 
 **Which permissions does it need, and when?**
 
-Screen Recording, the first time you record or take a screenshot; Microphone only if you turn it on.
+Screen Recording, the first time you record or take a screenshot; Microphone and Camera only if you turn them on; Speech Recognition only when you ask for captions from speech.
 
 **Does it send anything over the network?**
 
-No. It contains no networking code. Check with `codesign -d --entitlements - "/Applications/Zyvor Capture.app"`. It is not sandboxed.
+No. It contains no networking code. (Speech captions use macOS's on-device recognizer; macOS may download a language pack once.) Check with `codesign -d --entitlements - "/Applications/Zyvor Capture.app"`. It is not sandboxed.
 
 **Is there a trial?**
 

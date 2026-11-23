@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.3.0 - 2026-11-23
+
+- **Editable timeline:** zoom, caption, cut and slow-motion blocks sit on lanes under the video that you drag and resize. Zoom blocks are generated from your clicks and can be adjusted or added by hand.
+- **New editor layout:** the video editor is now a player, a filmstrip with trim handles and a playhead, and tabs (Trim, Smart edit, Look, Captions, Export). The photo editor's controls are in four tabs, with values and a reset button on every slider.
+- **Custom cursor:** optionally record without the system cursor and draw a smoothed, enlarged one afterwards, with a click ring, pulse or glow. Only the export shows it, not the live preview.
+- **Webcam:** record the camera beside the screen (a draggable preview bubble that is not recorded), then place it as a circle or rounded bubble in any corner. It follows your cuts and speed changes.
+- **Join clips** after the video with a crossfade, dip to black, slide, push or wipe.
+- **Captions:** type them, import or save SRT, or write them from speech. Speech recognition runs on this Mac; macOS may download a language pack once the first time you pick a language.
+- **Sound:** even out the volume, reduce steady background noise, cut low rumble. Done on this Mac.
+- **Video look:** vertical, square and portrait shapes over a blurred copy, a logo, a frame, fades, speed and size choices.
+- **Fixed:** the editor's lower controls were cut off at the default window size; long captions ran off the sides of the picture; exports could fail when two ran at once.
+
 ## v0.2.0 - 2026-11-23
 
 - **Photo editor:** flip, straighten (cropped so there are no empty corners), crop to a shape (1:1, 16:9, 3:2, 4:3, 9:16, 4:5); warmth, shadows, highlights and vignette; sepia, instant and tonal filters; a macOS window frame with an optional title for sharing; **Find and hide secrets** (emails, keys, card numbers), **Copy text** and **Read QR code**, all on this Mac.
