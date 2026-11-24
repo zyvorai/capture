@@ -10,9 +10,9 @@ Record your screen, trim and tidy the video, and edit screenshots and photos, al
 
 <br />
 
-**[Download 0.3.0](https://github.com/zyvorai/capture/releases/tag/v0.3.0)** &nbsp;·&nbsp; [Ask for a 30-day trial](mailto:sales@zyvor.dev?subject=Zyvor%20Capture%20trial%20key) &nbsp;·&nbsp; [Website](https://zyvorai.github.io/capture/) &nbsp;·&nbsp; [Docs](docs/INSTALL.md) &nbsp;·&nbsp; [Prices](https://zyvor.dev/pricing)
+**[Download 0.4.0](https://github.com/zyvorai/capture/releases/tag/v0.4.0)** &nbsp;·&nbsp; [Ask for a 30-day trial](mailto:sales@zyvor.dev?subject=Zyvor%20Capture%20trial%20key) &nbsp;·&nbsp; [Website](https://zyvorai.github.io/capture/) &nbsp;·&nbsp; [Docs](docs/INSTALL.md) &nbsp;·&nbsp; [Prices](https://zyvor.dev/pricing)
 
-`ZyvorCapture-0.3.0.dmg` · macOS 27 or later · Apple silicon · Developer ID signed and notarized
+`ZyvorCapture-0.4.0.dmg` · macOS 27 or later · Apple silicon · Developer ID signed and notarized
 
 </div>
 
@@ -23,7 +23,7 @@ Record your screen, trim and tidy the video, and edit screenshots and photos, al
 | | |
 | --- | --- |
 | **Trial** | A free 30-day trial key: **sales@zyvor.dev**. You do not need a key to use the app. |
-| **Download** | [Zyvor Capture 0.3.0](https://github.com/zyvorai/capture/releases/tag/v0.3.0): `ZyvorCapture-0.3.0.dmg` (SHA-256 `094c047106bba69d2f5b17870315cffcc6f04c439262f5d7f23fb1fd51124065`) |
+| **Download** | [Zyvor Capture 0.4.0](https://github.com/zyvorai/capture/releases/tag/v0.4.0): `ZyvorCapture-0.4.0.dmg` (SHA-256 `f51220b88a1d3230b68ea244daeb243954e660022ec9780f723e8a73532d5037`) |
 | **Requirements** | macOS 27 or later, Apple silicon |
 | **Pricing** | See [zyvor.dev/pricing](https://zyvor.dev/pricing) or write to sales@zyvor.dev. |
 

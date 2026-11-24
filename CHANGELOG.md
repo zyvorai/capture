@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.4.0 - 2026-11-24
+
+- **Undo and redo** in the video editor (Command-Z), with your edits saved beside the video and restored when you reopen it. J, K and L play, and a shortcuts sheet lists the keys.
+- **Callouts:** arrows, boxes, circles, text, numbered steps, blur and spotlight that appear for a chosen stretch of the video, on a new Annotations lane or drawn over the player.
+- **One-click looks:** Tutorial, Social vertical, Bug report and Clean demo, each a single undo step.
+- **Share and size:** AirDrop, Messages, Mail and copy, and "Fit in 10, 25, 50 or 100 MB" exports that re-encode when a file is still too big.
+- **Recordings library** as the home screen: thumbnails, search and sorting.
+- **Recording:** pick an area with fixed-size presets, stop automatically after a set time, a recording HUD with a menu-bar timer, grab text from the screen or scan a QR code, and a correction for a webcam that starts slightly before the screen.
+- **Photo editor:** pen, highlighter, magnifier, spotlight, text styles, stickers, pasted pictures, select and move, canvas expand, before and after, eyedropper and palette, and social-size export.
+- **Fixed:** trim, sound-only and timeline exports could fail with a vague error when they ran alongside another export; they now take turns.
+- **Not yet tested on real hardware:** the new interactive parts were built and checked in automated tests and rendered previews, not in long real recording sessions. Tell us what you find: sales@zyvor.dev.
+
 ## v0.3.0 - 2026-11-23
 
 - **Editable timeline:** zoom, caption, cut and slow-motion blocks sit on lanes under the video that you drag and resize. Zoom blocks are generated from your clicks and can be adjusted or added by hand.

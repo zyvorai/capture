@@ -4,14 +4,14 @@ Requires macOS 27 or later on Apple silicon. Zyvor Capture is a menu-bar app; it
 
 ## 1. Download and verify
 
-Download [ZyvorCapture-0.3.0.dmg](https://github.com/zyvorai/capture/releases/download/v0.3.0/ZyvorCapture-0.3.0.dmg) and its `.sha256` file from the [release page](https://github.com/zyvorai/capture/releases/tag/v0.3.0). The DMG is Developer ID signed and notarized by Apple.
+Download [ZyvorCapture-0.4.0.dmg](https://github.com/zyvorai/capture/releases/download/v0.4.0/ZyvorCapture-0.4.0.dmg) and its `.sha256` file from the [release page](https://github.com/zyvorai/capture/releases/tag/v0.4.0). The DMG is Developer ID signed and notarized by Apple.
 
 ```
-shasum -a 256 -c ZyvorCapture-0.3.0.dmg.sha256
-xcrun stapler validate ZyvorCapture-0.3.0.dmg
+shasum -a 256 -c ZyvorCapture-0.4.0.dmg.sha256
+xcrun stapler validate ZyvorCapture-0.4.0.dmg
 ```
 
-SHA-256 of this release: `094c047106bba69d2f5b17870315cffcc6f04c439262f5d7f23fb1fd51124065`.
+SHA-256 of this release: `f51220b88a1d3230b68ea244daeb243954e660022ec9780f723e8a73532d5037`.
 
 ## 2. Install
 
