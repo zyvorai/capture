@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.5.0 - 2026-11-24
+
+- **Audio:** a waveform lane under the filmstrip; cut or speed up quiet stretches automatically; record a voice-over; add background music that lowers itself under speech; per-clip volume, fades and mute ranges; pick a loudness target (-14, -16 or -23 LUFS).
+- **Chapters:** add markers and copy or save YouTube-style chapter text, or SRT and VTT files.
+- **Export:** one-click presets for YouTube, TikTok and Reels, X, LinkedIn, Slack and Discord (under 10 MB) and a GitHub README GIF; H.264, HEVC and ProRes 422; better GIFs and animated PNG; save a poster frame, a contact sheet or a folder of frames; export many recordings at once from the library, with a history and filename templates. Animated WebP is not offered because macOS cannot write it.
+- **Recording:** pause and resume; show key presses in the video (needs Input Monitoring; "shortcuts only" mode never stores ordinary typing); leave chosen apps out or record only one app; optionally hide desktop icons and the Dock while recording; a teleprompter; instant replay of the last few seconds (up to 15, an Apple limit); start at a set time; a recording area that follows a window. Do Not Disturb is not switched on for you, because macOS gives apps no way to do it. This app's own windows are now left out of recordings by default.
+- **Photo editor:** scrolling screenshots; straighten a photographed page; blur faces; browser, phone and laptop frames; new backgrounds and saved looks; polygon, dashed and smoothed strokes; levels, hue, vibrance, tilt-shift, denoise and auto-enhance; apply one recipe to many pictures.
+- **App:** a Settings window; library search through spoken words and on-screen text (an index kept in your save folder, which you can delete); tags, favourites, folders and bulk move or trash; offer to clean up old recordings (to the Trash, after asking); Shortcuts actions and optional `capture://` links (off until you turn them on); Quick Look and dragging files out; recent recordings in the menu bar; a permission checklist; an offer to recover a recording that was interrupted.
+- **Not yet tested on real hardware:** these features were checked with automated tests and rendered previews, not in long real recording sessions. Tell us what you find: sales@zyvor.dev.
+
 ## v0.4.0 - 2026-11-24
 
 - **Undo and redo** in the video editor (Command-Z), with your edits saved beside the video and restored when you reopen it. J, K and L play, and a shortcuts sheet lists the keys.
