@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.6.0 - 2026-11-24
+
+- **Overlays:** title cards and lower thirds, intro and outro cards, a progress bar and step timer, logos, emoji stickers, crop and rotate, auto-reframe to vertical or square that follows your pointer, freeze frame, reverse, eased speed changes and picture-in-picture. The editor's player does not show them; use "Preview this frame" or export.
+- **Transcript editing:** write a transcript with word timings, click a word to jump there, delete words to cut that part of the video, and review filler words ("um", "uh") and repeats in one list. Caption looks with a word-by-word highlight. Translate captions and get suggested titles, descriptions and chapter names. Translation and the suggestions use the language models built into macOS, on this Mac, and only appear when your Mac supports them.
+- **Guides:** make a step-by-step guide from the clicks in a recording, or from pictures in the library, and save it as Markdown, HTML or PDF.
+- **Recording:** timelapse mode; live drawing, a pointer spotlight, a magnifier and click rings while you record, with hotkeys (Control-Option-Command plus D, H, M, K, X, G); copy the latest recording as a GIF from the menu bar.
+- **Webcam:** blur or replace the background, filters, bubble shapes and borders, auto-framing on your face, show, hide or move the bubble on a timeline lane, camera-only recording, export the webcam on its own, and a green-screen key.
+- **Photo editor:** remove small objects, edit text inside a screenshot, social-media sizes and collages, multi-page PDF, a ruler and a colour contrast checker, replace the background behind a cut-out, curved and shadowed text.
+- **App:** change the app's hotkeys, a first-run tour, arrow-key moves in the library, more VoiceOver labels, and a notification when a long export finishes.
+- **Not yet tested on real hardware:** these features were checked with automated tests and rendered previews, not in long real recording sessions. Tell us what you find: sales@zyvor.dev.
+
 ## v0.5.0 - 2026-11-24
 
 - **Audio:** a waveform lane under the filmstrip; cut or speed up quiet stretches automatically; record a voice-over; add background music that lowers itself under speech; per-clip volume, fades and mute ranges; pick a loudness target (-14, -16 or -23 LUFS).
